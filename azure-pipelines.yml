@@ -21,10 +21,4 @@ steps:
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'package'
 
-- task: InstallFortifySCA@5
-  inputs:
-    InstallerPath: 'C:/PG2020/azure/Fortify_SCA_and_Apps_19.2.0_linux_x64.run'
-    VS2013: false
-    VS2015: false
-    LicenseFile: 'C:/PG2020/azure/fortify.license'
-    RunFortifyRulepackUpdate: true
+- 
