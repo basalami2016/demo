@@ -74,7 +74,6 @@ public class SecurityConfig {
             Map<String, UserDetails> user = new HashMap<String, UserDetails>();
             Collection<? extends GrantedAuthority> demoAuthorities;
 
-            //haat
             demoAuthorities = Arrays.asList(
                     new SimpleGrantedAuthority("USER"),
                     new SimpleGrantedAuthority("SECURITY"),
